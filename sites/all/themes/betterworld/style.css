@@ -12,13 +12,17 @@ body.i18n-ja{
 	font-family:'Verdana', 'Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS P Gothic', sans-serif;
 	color:#616161;
 	font-size: 12px;
-	line-height: 1.3;
+	line-height: 1.5;
 }
 a{
-	color:#000000;
+	color:#0bb0e7;
 	text-decoration: none;
 	
 }
+a:hover{
+	color:#096c91;
+}
+	
 p{
 	margin:0 0 10px;
 	
@@ -79,6 +83,13 @@ img{
 	border: none;
 	
 }
+.content .node ul li{
+	  background-image: url('/betterworld/sites/all/themes/betterworld/images/list_arrow.gif');
+	  background-repeat:no-repeat;
+	  background-position:0 4px;
+	  padding:0 0 0 10px;
+	}
+
 .region-header .block p{
 	margin:0;
 	
@@ -239,7 +250,7 @@ ul.language-switcher-locale-url li.first{
 }
 
 .view-news-block-top-page .views-field-title a{
-	font-size:12px;
+	font-size:14px;
 	font-weight: bold;
 	padding: 0 0 5px;
 	display: block;
@@ -378,7 +389,11 @@ table td{
 	padding: 10px 10px 10px 20px;
 }
 /*breadcrumb*/
+.breadcrumb{
+	font-weight:bold;
+	color:#000000;
+	}
 .breadcrumb a{
-		color:#919191;
-		
+	color:#919191;
+	font-weight:normal;	
 	}
